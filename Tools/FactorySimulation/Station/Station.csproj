@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Station</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Station</PackageId>
+    <StartupObject>Station.Simulation.Program</StartupObject>
+    <RootNamespace>Station.Simulation</RootNamespace>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+    <DockerfileRunArguments>-p 4840:4840</DockerfileRunArguments>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="app\**" />
+    <Compile Remove="pki\**" />
+    <EmbeddedResource Remove="app\**" />
+    <EmbeddedResource Remove="pki\**" />
+    <None Remove="app\**" />
+    <None Remove="pki\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Opc.Ua.MES.Config.xml" />
+    <None Remove="Opc.Ua.MES.Endpoints.xml" />
+    <None Remove="Opc.Ua.Station.Config.xml" />
+    <None Remove="ShiftTimes.csv" />
+    <None Remove="Station.NodeSet2.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Opc.Ua.MES.Config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Opc.Ua.MES.Endpoints.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Opc.Ua.Station.Config.xml">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ShiftTimes.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Station.NodeSet2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.20.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua" Version="1.5.374.54" />
+  </ItemGroup>
+
+</Project>
