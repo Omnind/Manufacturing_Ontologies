@@ -5,7 +5,7 @@ The reference solution previously in this repository is now hosted on the Micros
 
 ## Introduction
 
-An ontology provides a standardized framework for describing systems within the manufacturing sector. These systems may include individual factories, enterprise applications, or entire supply chains. The manufacturing industry has developed several well-established ontologies, most of which have been widely standardized to ensure consistency and interoperability across different applications. In this repository, we have focused on ISA95 to describe a factory ontology. The ontologies are available [here](TBD).
+An ontology provides a standardized framework for describing systems within the manufacturing sector. These systems may include individual factories, enterprise applications, or entire supply chains. The manufacturing industry has developed several well-established ontologies, most of which have been widely standardized to ensure consistency and interoperability across different applications. In this repository, we have focused on ISA95 to describe a factory ontology. The ontologies are available [here](https://github.com/Omnind/Manufacturing_Ontologies/tree/main/Ontologies).
 
 ### Digital Twin Definition Language
 
@@ -13,7 +13,7 @@ The ontologies in this repository utilize the Digital Twin Definition Language (
 
 ### W3C Web of Things
 
-The ontologies also integrate the W3C Web of Things (WoT) standards, enhancing interoperability across IoT devices and platforms. The WoT specification is available [here](https://www.w3.org/TR/wot-thing-description/), and the ontologies were generated using an open-source DTDL-WoT conversion tool, which you can access [here](https://github.com/web-of-things-open-source/wot-dtdl-converter). A comparison of DTDL and WoT and their interoperability is discussed [here](TBD).
+The ontologies also integrate the W3C Web of Things (WoT) standards, enhancing interoperability across IoT devices and platforms. The WoT specification is available [here](https://www.w3.org/TR/wot-thing-description/), and the ontologies were generated using an open-source DTDL-WoT conversion tool, which you can access [here](https://github.com/web-of-things-open-source/wot-dtdl-converter). A comparison of DTDL and WoT and their interoperability is discussed [here](https://github.com/Omnind/Manufacturing_Ontologies/blob/main/comparison.md).
 
 ### International Society of Automation 95 (ISA95/IEC 62264)
 
