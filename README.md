@@ -5,7 +5,7 @@ The reference solution previously in this repository is now hosted on the Micros
 
 ## Introduction
 
-An ontology provides the standardized framework for describing systems within the manufacturing sector. These systems may include individual factories, enterprise applications, or entire supply chains. The manufacturing industry has developed several well-established ontologies, most of which have been widely standardized to ensure consistency and interoperability across different applications. In this repository, we have focused on ISA95 to describe a factory ontology. The ontologies are available [here](TBD).
+An ontology provides a standardized framework for describing systems within the manufacturing sector. These systems may include individual factories, enterprise applications, or entire supply chains. The manufacturing industry has developed several well-established ontologies, most of which have been widely standardized to ensure consistency and interoperability across different applications. In this repository, we have focused on ISA95 to describe a factory ontology. The ontologies are available [here](TBD).
 
 ### Digital Twin Definition Language
 
@@ -100,7 +100,7 @@ There are different technical sheets to simplify data preparation:
 <img src="Docs/Picture5.png" width="900" />
 
 
-This project uses materials from the Manufacturing Ontologies repository by the Digital Twin Consortium, available under the [CC BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). The original project can be found [here](https://github.com/digitaltwinconsortium/ManufacturingOntologies). Changes have been made to adapt the materials for our specific use case.
+This project uses materials from the **Manufacturing Ontologies repository** by the Digital Twin Consortium, available under the [CC BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). The original project can be found [here](https://github.com/digitaltwinconsortium/ManufacturingOntologies). Changes have been made to adapt the materials for our specific use case.
 
 ## License
 
