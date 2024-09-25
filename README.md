@@ -1,5 +1,7 @@
 # Manufacturing Ontologies
 
+## Note
+
 The reference solution previously in this repository is now hosted on the Microsoft Learn platform, and you can access it [here](https://learn.microsoft.com/en-us/azure/iot/concepts-iot-industrial-solution-architecture) for streamlined guidance on Azure-based business implementations.
 
 
