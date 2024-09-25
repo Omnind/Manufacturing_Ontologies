@@ -1,5 +1,11 @@
 # Manufacturing Ontologies
 
+## Content
+- [Note](https://github.com/Omnind/Manufacturing_Ontologies/blob/main/README.md#note)
+- [Introduction](https://github.com/Omnind/Manufacturing_Ontologies?tab=readme-ov-file#introduction)
+- [ADT Generation tool for ISA95](https://github.com/Omnind/Manufacturing_Ontologies?tab=readme-ov-file#adt-generation-tool-for-isa95)
+- [License](https://github.com/Omnind/Manufacturing_Ontologies?tab=readme-ov-file#license)
+
 ## Note
 
 The reference solution previously in this repository is now hosted on the Microsoft Learn platform, and you can access it [here](https://learn.microsoft.com/en-us/azure/iot/concepts-iot-industrial-solution-architecture) for streamlined guidance on Azure-based business implementations.
@@ -102,9 +108,9 @@ There are different technical sheets to simplify data preparation:
 <img src="Docs/Picture5.png" width="900" />
 
 
-This project uses materials from the **Manufacturing Ontologies repository** by the Digital Twin Consortium, available under the [CC BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). The original project can be found [here](https://github.com/digitaltwinconsortium/ManufacturingOntologies). Changes have been made to adapt the materials for our specific use case.
-
 ## License
+
+This project uses materials from the **Manufacturing Ontologies repository** by the Digital Twin Consortium, available under the [CC BY 4.0 license](http://creativecommons.org/licenses/by/4.0/). The original project can be found [here](https://github.com/digitaltwinconsortium/ManufacturingOntologies). Changes have been made to adapt the materials for our specific use case.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
